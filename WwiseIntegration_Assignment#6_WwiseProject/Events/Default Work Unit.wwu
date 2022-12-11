@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test" ID="{4A3824AE-F5DE-4991-99B9-BB67E86EC73C}">
+					<ChildrenList>
+						<Action Name="" ID="{2855A607-EF1A-452E-8B42-59D15831E508}" ShortID="438107631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PotionBubble" ID="{9EBC8387-1437-475B-B19D-C78E38D47F64}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RuneStones" ID="{A2E7A354-80F2-4BB4-8681-9298C344A7AC}">
+					<ChildrenList>
+						<Action Name="" ID="{47C00D42-3303-4032-992C-42764FF2C8FD}" ShortID="111533241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RuneStones" ID="{47C7F8E5-6DE7-4055-9E9D-39F33874721B}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="River" ID="{311EC639-9C0D-4B00-AF3A-6F85A1EC1F2D}">
+					<ChildrenList>
+						<Action Name="" ID="{8969BF27-F9BA-4805-B0A7-0D277BA447F2}" ShortID="613502118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Stream_Calm_Loop_Stereo" ID="{9BA2217F-6DC7-454D-8BFC-23E615B9E2BD}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wind_Calm" ID="{118FCFAC-055C-47BC-97BF-29BC28C7824D}">
+					<ChildrenList>
+						<Action Name="" ID="{67BFC025-474B-41A5-B957-1DF950BCA049}" ShortID="1072401114">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Wind_Calm_Loop_Stereo" ID="{860D1DA0-894B-4D94-964F-0884039F973E}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Forest_Birds" ID="{0B58A399-DF15-4982-A123-E5296E3408E8}">
+					<ChildrenList>
+						<Action Name="" ID="{0261C4ED-B3F4-4890-8170-F040003A0C14}" ShortID="690912026">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{06139EC9-D3AF-41DA-A947-8DCADBE71ED1}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusicEvent" ID="{12090355-D828-4CA0-80DD-6027B4116899}">
+					<ChildrenList>
+						<Action Name="" ID="{6D8E1F01-9A49-4DF8-8067-D19D419198EC}" ShortID="1062326023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameMusicTheme" ID="{BF75C828-BF5C-4187-ABAB-43C9D66C4177}" WorkUnitID="{F3C4681B-5830-40DA-A0EA-48CE6A345E12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

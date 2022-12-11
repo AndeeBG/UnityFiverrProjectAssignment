@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3C4681B-5830-40DA-A0EA-48CE6A345E12}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{F3C4681B-5830-40DA-A0EA-48CE6A345E12}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="GameMusicTheme" ID="{BF75C828-BF5C-4187-ABAB-43C9D66C4177}" ShortID="304925872">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="210769.47845805"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Aspiration Woods (Area Theme)" ID="{40EB3A17-E8B3-4615-9903-4208B58D6CC1}" ShortID="443959031">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Aspiration Woods (Area Theme)" ID="{B94330E2-8AAC-474A-AD97-B9930291D51F}">
+									<Language>SFX</Language>
+									<AudioFile>Aspiration Woods (Area Theme).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="238044580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F68BB8DE-646A-454C-8C7F-44FD472F5A4C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{9A7E15C1-697E-46BE-8334-6C645611BAE8}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Aspiration Woods (Area Theme)" ID="{B7E13A5C-B14A-478E-BDA4-8EE38E6060DF}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="210769.47845805"/>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1075.35448192883"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1290.4253783146"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Aspiration Woods (Area Theme)" ID="{B94330E2-8AAC-474A-AD97-B9930291D51F}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{97DD433C-233F-4CB5-B6C1-E1D66AB59724}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{81DB61D0-CB55-486C-BA43-AE50C11322A2}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="210769.47845805"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

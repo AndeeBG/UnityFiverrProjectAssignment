@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PotionBubble" ID="{9EBC8387-1437-475B-B19D-C78E38D47F64}" ShortID="397209148">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PotionBubble" ID="{75ED8B58-DBF8-4FCF-A5C7-BE7288A768A5}">
+							<Language>SFX</Language>
+							<AudioFile>PotionBubble.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="908732589"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PotionBubble" ID="{75ED8B58-DBF8-4FCF-A5C7-BE7288A768A5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="Ambience" ID="{731DF26A-517D-4C16-A9F0-900B46C398BD}" ShortID="149227818">
+					<ChildrenList>
+						<Sound Name="Ambiance_Cave_Dark_Loop_Stereo" ID="{3016AAF9-558F-4211-A3D1-FF89CC72CDEF}" ShortID="17499053">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Cave_Dark_Loop_Stereo" ID="{00B83EFA-D7AD-473A-9D5E-E37B4F521E7E}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Cave_Dark_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042177606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Cave_Dark_Loop_Stereo" ID="{00B83EFA-D7AD-473A-9D5E-E37B4F521E7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Cave_Deep_Loop_Stereo" ID="{A3D4436B-D729-4455-80AE-7F87B76ACE63}" ShortID="862343121">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Cave_Deep_Loop_Stereo" ID="{5427CB5F-C00B-45A7-8D84-16B5CE90DC96}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Cave_Deep_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="993819230"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Cave_Deep_Loop_Stereo" ID="{5427CB5F-C00B-45A7-8D84-16B5CE90DC96}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Cave_Drips_Loop_Stereo" ID="{09020DEF-03FB-4E9F-BFA7-1B5E353E8E8A}" ShortID="307639491">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Cave_Drips_Loop_Stereo" ID="{5C80368E-9C42-4FB3-988A-F3A5DEBC0342}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Cave_Drips_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158927431"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Cave_Drips_Loop_Stereo" ID="{5C80368E-9C42-4FB3-988A-F3A5DEBC0342}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Cicadas_Loop_Stereo" ID="{D249736E-1EC9-44BD-8C26-7CBCEE01D054}" ShortID="707650128">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Cicadas_Loop_Stereo" ID="{771CBF72-59E2-4D86-8299-EC923950587C}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Cicadas_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="647180064"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Cicadas_Loop_Stereo" ID="{771CBF72-59E2-4D86-8299-EC923950587C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Firecamp_Medium_Loop_Mono" ID="{40672E0B-9EDC-4CE2-B7C3-D07E33C6CF1C}" ShortID="889306690">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Firecamp_Medium_Loop_Mono" ID="{ED5A8FA5-6E24-400F-8688-9E312B1EF41E}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Firecamp_Medium_Loop_Mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="610711767"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Firecamp_Medium_Loop_Mono" ID="{ED5A8FA5-6E24-400F-8688-9E312B1EF41E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Firecamp_Small_Loop_Mono" ID="{8F976166-1D57-4386-85B3-D7A476F1AE65}" ShortID="50660813">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Firecamp_Small_Loop_Mono" ID="{FC157B08-95D7-4985-AAF4-61C7134CD311}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Firecamp_Small_Loop_Mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="754060243"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Firecamp_Small_Loop_Mono" ID="{FC157B08-95D7-4985-AAF4-61C7134CD311}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Fire_Big_Loop_Mono" ID="{1ED4DD17-B240-4479-AF80-CD568DF234A3}" ShortID="349287794">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Fire_Big_Loop_Mono" ID="{EA4C66FF-D8A6-4942-ACB8-A09B335FAB1B}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Fire_Big_Loop_Mono.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="706435617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Fire_Big_Loop_Mono" ID="{EA4C66FF-D8A6-4942-ACB8-A09B335FAB1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{06139EC9-D3AF-41DA-A947-8DCADBE71ED1}" ShortID="358825629">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Environment" ID="{92BE0958-2F56-4645-A202-63879D1A6041}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{1CEF9832-2DD0-4898-B7CD-EB64C6E97D09}" ShortID="871224811" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-5"/>
+												<Property Name="ERPattern" Type="int32" Value="9"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-60"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{ADE8ADFC-267A-40BF-98D7-3B5CE41E40F4}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Forest_Birds_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="221950680"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{ADE8ADFC-267A-40BF-98D7-3B5CE41E40F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Night_Loop_Stereo" ID="{D235F7D3-54F8-44E6-96CC-645F3CD89650}" ShortID="606356538">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Night_Loop_Stereo" ID="{D2C7152F-9B28-4037-B476-4FB78F91A01F}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Night_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350615961"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Night_Loop_Stereo" ID="{D2C7152F-9B28-4037-B476-4FB78F91A01F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Rain_Calm_Loop_Stereo" ID="{61AC2D7F-D1D7-4ECE-9418-20422C642DAD}" ShortID="881642082">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Rain_Calm_Loop_Stereo" ID="{46A43842-7D21-419B-B09B-ACFA8133EC8E}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Rain_Calm_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="932207793"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Rain_Calm_Loop_Stereo" ID="{46A43842-7D21-419B-B09B-ACFA8133EC8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Rain_Strong_Loop_Stereo" ID="{57375DDE-6211-4672-ABA9-959EC8C75947}" ShortID="678556296">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Rain_Strong_Loop_Stereo" ID="{18CDF9A6-E7F6-4EDD-BAE3-B20473E3DF9C}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Rain_Strong_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="469629452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Rain_Strong_Loop_Stereo" ID="{18CDF9A6-E7F6-4EDD-BAE3-B20473E3DF9C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_River_Moderate_Loop_Stereo" ID="{55615461-FAC3-4703-8918-C25155E5E352}" ShortID="628361076">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_River_Moderate_Loop_Stereo" ID="{4F1840C0-77CE-4EA9-B388-EA416CB60993}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_River_Moderate_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="660126491"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_River_Moderate_Loop_Stereo" ID="{4F1840C0-77CE-4EA9-B388-EA416CB60993}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Sea_Loop_Stereo" ID="{A32F44D7-D63D-48C5-B41B-202B898BA86E}" ShortID="649254104">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Sea_Loop_Stereo" ID="{07F47B9A-687F-42E5-B559-5D76F7F66E79}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Sea_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="579437633"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Sea_Loop_Stereo" ID="{07F47B9A-687F-42E5-B559-5D76F7F66E79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Stream_Calm_Loop_Stereo" ID="{9BA2217F-6DC7-454D-8BFC-23E615B9E2BD}" ShortID="645989037">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Environment" ID="{92BE0958-2F56-4645-A202-63879D1A6041}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{C6BDFABC-A186-4C68-B321-72A6C0E8919F}" ShortID="968518809" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-4.3"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-60"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Stream_Calm_Loop_Stereo" ID="{63C08947-A370-4DC3-93D8-40EDF06FB14E}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Stream_Calm_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="227831813"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Stream_Calm_Loop_Stereo" ID="{63C08947-A370-4DC3-93D8-40EDF06FB14E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Waterfall_Calm_Loop_Stereo" ID="{5645726C-9DE8-4189-8B04-F19F504DE18A}" ShortID="300592382">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Waterfall_Calm_Loop_Stereo" ID="{7E240544-9631-44FB-AEBC-322BA4B01D60}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Waterfall_Calm_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="498539736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Waterfall_Calm_Loop_Stereo" ID="{7E240544-9631-44FB-AEBC-322BA4B01D60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Waterfall_Strong_Loop_Stereo" ID="{61B8E000-8976-45D4-8EC9-D7C267C7B183}" ShortID="230469071">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Waterfall_Strong_Loop_Stereo" ID="{D313D8E1-169A-4A43-AC23-61B0CEEB617D}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Waterfall_Strong_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="86029103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Waterfall_Strong_Loop_Stereo" ID="{D313D8E1-169A-4A43-AC23-61B0CEEB617D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Wind_Calm_Loop_Stereo" ID="{860D1DA0-894B-4D94-964F-0884039F973E}" ShortID="779261008">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Wind_Calm_Loop_Stereo" ID="{D3515F10-4A4A-4751-B50B-7E062200068B}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Wind_Calm_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="896349873"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Wind_Calm_Loop_Stereo" ID="{D3515F10-4A4A-4751-B50B-7E062200068B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_Wind_Forest_Loop_Stereo" ID="{6FA0C356-40B6-4D13-8E03-E1AC84BCAC47}" ShortID="174393822">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_Wind_Forest_Loop_Stereo" ID="{A910CBA4-68D3-46C6-8723-6AD6BCE51F24}">
+									<Language>SFX</Language>
+									<AudioFile>Nature - Essentials\Ambiance_Wind_Forest_Loop_Stereo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992217825"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_Wind_Forest_Loop_Stereo" ID="{A910CBA4-68D3-46C6-8723-6AD6BCE51F24}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="RuneStones" ID="{47C7F8E5-6DE7-4055-9E9D-39F33874721B}" ShortID="166245807">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="RuneStones" ID="{925DAA6E-AB4B-4F56-8E56-3DBEFB93E4FD}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="1stRune" ID="{19E217E6-7680-421D-9423-9AE7E428ABE1}" ShortID="738617773">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="RuneStones" ID="{925DAA6E-AB4B-4F56-8E56-3DBEFB93E4FD}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1stRune" ID="{5C90F677-4BAE-46E4-A27F-D09AA5F46F53}">
+									<Language>SFX</Language>
+									<AudioFile>1stRune.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="100281365"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="1stRune" ID="{5C90F677-4BAE-46E4-A27F-D09AA5F46F53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="2ndRune" ID="{C14F1879-1DD4-4A1E-B8C2-DDA163697318}" ShortID="390613021">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="RuneStones" ID="{925DAA6E-AB4B-4F56-8E56-3DBEFB93E4FD}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2ndRune" ID="{085CD08D-7116-4418-AC35-5582B24D79D3}">
+									<Language>SFX</Language>
+									<AudioFile>2ndRune.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="814184264"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="2ndRune" ID="{085CD08D-7116-4418-AC35-5582B24D79D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3rdRune" ID="{2010CB8E-BBD1-4E48-9B3E-0A16B85957F3}" ShortID="1016036487">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="RuneStones" ID="{925DAA6E-AB4B-4F56-8E56-3DBEFB93E4FD}" WorkUnitID="{B286D3D6-F0D2-4D8F-A464-20A6CE75EBD6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9A6ACC5D-2D0D-4527-98CA-719AA7590EFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3rdRune" ID="{1AFBE50A-5E8F-410C-AFFB-5F9587D73FD8}">
+									<Language>SFX</Language>
+									<AudioFile>3rdRune.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1026213787"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="3rdRune" ID="{1AFBE50A-5E8F-410C-AFFB-5F9587D73FD8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

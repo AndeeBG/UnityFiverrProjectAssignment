@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1160230143	RuneStones			\Default Work Unit\RuneStones	
+	1820725891	Wind_Calm			\Default Work Unit\Wind_Calm	
+	1856253495	Forest_Birds			\Default Work Unit\Forest_Birds	
+	3203495348	GameMusicEvent			\Default Work Unit\GameMusicEvent	
+	3605787649	River			\Default Work Unit\River	
+
+Effect plug-ins	ID	Name	Type				Notes
+	871224811	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+	968518809	Wwise RoomVerb (Custom)	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100281365	1stRune	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\1stRune_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RuneStones\1stRune		647232
+	221950680	Ambiance_Forest_Birds_Loop_Stereo	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\Nature - Essentials\Ambiance_Forest_Birds_Loop_Stereo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambiance_Forest_Birds_Loop_Stereo		5581036
+	227831813	Ambiance_Stream_Calm_Loop_Stereo	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\Nature - Essentials\Ambiance_Stream_Calm_Loop_Stereo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambiance_Stream_Calm_Loop_Stereo		3264816
+	238044580	Aspiration Woods (Area Theme)	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\Aspiration Woods (Area Theme)_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\GameMusicTheme\Aspiration Woods (Area Theme)		37179800
+	814184264	2ndRune	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\2ndRune_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RuneStones\2ndRune		835648
+	896349873	Ambiance_Wind_Calm_Loop_Stereo	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\Nature - Essentials\Ambiance_Wind_Calm_Loop_Stereo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambiance_Wind_Calm_Loop_Stereo		5731664
+	1026213787	3rdRune	B:\Programs\UnityProjects\WwiseIntegration_Assignment#6\WwiseIntegration_Assignment#6_WwiseProject\.cache\Mac\SFX\3rdRune_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RuneStones\3rdRune		753728
+

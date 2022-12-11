@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6B3DBE5-7625-4A72-B901-5318CC903AFA}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A6B3DBE5-7625-4A72-B901-5318CC903AFA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{EFE6BBCC-99A0-4986-AEC0-63F8629C6195}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test" ID="{4A3824AE-F5DE-4991-99B9-BB67E86EC73C}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{C35CCB2E-E1C4-42FA-904C-8C19B509B59A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Wind_Calm" ID="{118FCFAC-055C-47BC-97BF-29BC28C7824D}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Forest_Birds" ID="{0B58A399-DF15-4982-A123-E5296E3408E8}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="River" ID="{311EC639-9C0D-4B00-AF3A-6F85A1EC1F2D}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RuneStones" ID="{A2E7A354-80F2-4BB4-8681-9298C344A7AC}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameMusicEvent" ID="{12090355-D828-4CA0-80DD-6027B4116899}" WorkUnitID="{EC81E227-BD14-4A64-9CAB-26BAE50C3B84}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

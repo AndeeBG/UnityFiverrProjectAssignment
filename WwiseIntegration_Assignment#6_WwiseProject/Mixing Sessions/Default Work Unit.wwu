@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BEB651A-4453-4A03-86FF-547744162D32}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1BEB651A-4453-4A03-86FF-547744162D32}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="2DAmbience" ID="{32B1A43C-2171-40EB-B8D4-3DDFECF9C2D6}">
+					<ObjectList>
+						<ObjectRef Name="Ambiance_Wind_Calm_Loop_Stereo" ID="{860D1DA0-894B-4D94-964F-0884039F973E}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="3DAmbience" ID="{243C095D-FBF4-4835-9EBE-7B64D6713CEC}">
+					<ObjectList>
+						<ObjectRef Name="Ambiance_Forest_Birds_Loop_Stereo" ID="{06139EC9-D3AF-41DA-A947-8DCADBE71ED1}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+						<ObjectRef Name="Ambiance_Stream_Calm_Loop_Stereo" ID="{9BA2217F-6DC7-454D-8BFC-23E615B9E2BD}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+						<ObjectRef Name="RuneStones" ID="{47C7F8E5-6DE7-4055-9E9D-39F33874721B}" WorkUnitID="{92EE825F-B12B-450C-B061-FA8DAE382A3B}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{13D28B39-651C-4FDC-B161-3F3C4D3B08D5}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>
